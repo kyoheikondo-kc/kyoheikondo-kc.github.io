@@ -74,7 +74,7 @@ a {
 
 
 /* pタグに関するスタイル */
-.row, p {
+p {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
 }
@@ -507,7 +507,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-    background-color: rgba(73, 191, 157, 0.1);
+    background-color: rgba(73, 191, 157, 0.3);
     border-color: #49bf9d;
     color: #49bf9d !important;
 }
@@ -650,7 +650,7 @@ input[type="button"]:disabled,
         margin: 0;
         padding: 6em 4em;
     }
-    .row, p {
+    p {
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
     }
 
@@ -720,7 +720,7 @@ input[type="button"]:disabled,
         padding: 4em 2em;
         width: 100%;
     }
-    .row, p {
+    p {
         padding-left: 7%; /* 画面幅が大きい場合に余白を増やす */
     }
 
