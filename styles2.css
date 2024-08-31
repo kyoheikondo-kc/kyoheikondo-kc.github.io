@@ -601,6 +601,7 @@ input[type="button"]:disabled,
     /* Basic */
     h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
         display: none;
+        text-align: left; /* タイトルを中央寄せ */
     }
 
     /* List */
