@@ -666,7 +666,6 @@ input[type="button"]:disabled,
     /* Main */
     #main {
         margin: 0;
-        margin-left: 30%;
         padding: 6em 4em;
         width: 100%;
     }
