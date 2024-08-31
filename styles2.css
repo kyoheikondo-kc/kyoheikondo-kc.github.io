@@ -74,7 +74,7 @@ a {
 
 
 /* pタグに関するスタイル */
-p {
+.row, p {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
 }
@@ -650,7 +650,7 @@ input[type="button"]:disabled,
         margin: 0;
         padding: 6em 4em;
     }
-    p {
+    .row, p {
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
     }
 
@@ -720,7 +720,7 @@ input[type="button"]:disabled,
         padding: 4em 2em;
         width: 100%;
     }
-    p {
+    .row, p {
         padding-left: 7%; /* 画面幅が大きい場合に余白を増やす */
     }
 
