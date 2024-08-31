@@ -6,7 +6,7 @@ body {
     color: #444;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 0.5;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     background-color: #fafafa; /* 背景色を全体に統一 */
@@ -73,7 +73,7 @@ body {
 
 #header h1 {
     color: #fff;
-    font-size: 2em; /* 文字サイズを少し大きく */
+    font-size: 1.5em; /* 文字サイズを少し大きく */
     margin-top: 1.5em;
     text-align: center; /* テキストを中央寄せに */
 }
