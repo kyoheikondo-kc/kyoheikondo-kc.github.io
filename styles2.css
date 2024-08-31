@@ -9,17 +9,30 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #fafafa; /* 背景色を全体に統一 */
-    overflow-x: hidden; /* 水平スクロールを防止 */
+    background-color: #fafafa;
+    overflow-x: hidden; /* 横スクロールを防ぐ */
+    box-sizing: border-box; /* 全体でbox-sizingを適用 */
+}
+
+/* 全体に適用されるスタイル */
+*, *::before, *::after {
+    box-sizing: inherit; /* 全ての要素にbox-sizingを継承 */
+}
+
+
+/* pタグに関するスタイル */
+p {
+    margin: 0;
+    padding-left: 2%; /* デフォルトの余白 */
 }
 
 /* Main Section Styling */
 #about, #research, #recent-work, #publications, #contact {
-    padding: 4em 2em; /* パディングを全体的に均一に */
-    margin-bottom: 2em; /* マージンを統一 */
+    padding: 4em 2em;
+    margin-bottom: 2em;
     background-color: #f9f9f9;
-    border-radius: 0.5em; /* ボーダーラディウスを統一 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* ボックスシャドウを追加 */
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #about h2, #research h2, #recent-work h2, #publications h2, #contact h2 {
@@ -563,7 +576,6 @@ input[type="button"]:disabled,
     /* Header */
     #header {
         padding: 6em 3em 3em 3em;
-        width: calc(100% - 8px); /* 横揺れを防ぐための調整 */
     }
 
     #header h1 {
@@ -591,11 +603,11 @@ input[type="button"]:disabled,
     #main {
         margin: 0;
         padding: 6em 4em;
-        width: calc(100% - 8px); /* 横揺れを防ぐための調整 */
     }
     p {
-        padding-left: 3%; /* 任意の値に調整してください */
+        padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
     }
+
 }
 
 /* Medium */
@@ -670,6 +682,10 @@ input[type="button"]:disabled,
         padding: 4em 2em;
         width: 100%;
     }
+    p {
+        padding-left: 3%; /* 画面幅が大きい場合に余白を増やす */
+    }
+
 }
 
 /* Small */
