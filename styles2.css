@@ -588,14 +588,13 @@ input[type="button"]:disabled,
     }
 
     /* Main */
-    /* Main */
     #main {
         margin: 0;
         padding: 6em 4em;
         width: 100%;
     }
     p {
-        padding-left: 5%; /* 任意の値に調整してください */
+        padding-left: 3%; /* 任意の値に調整してください */
     }
 }
 
@@ -604,7 +603,6 @@ input[type="button"]:disabled,
     /* Basic */
     h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
         display: none;
-        text-align: left; /* タイトルを中央寄せ */
     }
 
     /* List */
@@ -669,11 +667,7 @@ input[type="button"]:disabled,
     /* Main */
     #main {
         margin: 0;
-        padding: 6em 4em;
-        width: 100%;
-    }
-    p {
-        padding-left: 2%; /* 任意の値に調整してください */
+        padding: 4em 2em;
         width: 100%;
     }
 }
