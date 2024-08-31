@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
+    padding-left: 2em;
     background-color: #fafafa; /* 背景色を全体に統一 */
 }
 
