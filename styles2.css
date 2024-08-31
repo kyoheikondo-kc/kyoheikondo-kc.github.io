@@ -579,6 +579,9 @@ input[type="button"]:disabled,
         width: 100%;
         display: block;
     }
+	h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+        display: none;
+    }
 
     #header h1 {
         font-size: 2em;
