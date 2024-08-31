@@ -14,7 +14,23 @@ body {
     box-sizing: border-box; /* 全体でbox-sizingを適用 */
 }
 
-header a {
+a {
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		border-bottom: dotted 1px;
+		color: #49bf9d;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
+
+#header a {
     -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -40,7 +56,6 @@ header a {
     color: #49bf9d !important;
     text-decoration: none;
 }
-
 
     #footer .icons {
         margin: 0 0 1em 0;
@@ -131,31 +146,6 @@ p {
     font-size: 1.5em; /* 文字サイズを少し大きく */
     margin-top: 1.5em;
     text-align: center; /* テキストを中央寄せに */
-}
-
-#header .icons {
-    margin-bottom: 1em;
-}
-
-#header .icons a {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.5em;
-    margin: 0 1em; /* アイコン間のスペースを調整 */
-    transition: color 0.3s;
-}
-
-#header .icons a:hover {
-    color: #49bf9d; /* ホバー時に色を変更 */
-}
-
-/* #header内のaタグに対する追加スタイル */
-#header a {
-    border-bottom: 2px solid transparent;
-}
-
-#header a:hover {
-    border-bottom: 2px solid #49bf9d; /* ホバー時に下線を表示 */
-    border-bottom-color: transparent;
 }
 
 /*
