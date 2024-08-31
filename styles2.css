@@ -15,20 +15,20 @@ body {
 }
 
 a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
-		text-decoration: none;
-	}
+    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    border-bottom: dotted 1px;
+    color: #49bf9d;
+    text-decoration: none;
+}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #49bf9d !important;
-			text-decoration: none;
-        }
+a:hover {
+    border-bottom-color: transparent;
+    color: #49bf9d !important;
+    text-decoration: none;
+}
 
 
 
@@ -114,6 +114,20 @@ p {
     text-align: center; /* テキストを中央寄せに */
 }
 
+#header .icons {
+    margin-bottom: 1em;
+}
+
+#header .icons a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    margin: 0 1em; /* アイコン間のスペースを調整 */
+    transition: color 0.3s;
+}
+
+#header .icons a:hover {
+    color: #49bf9d; /* ホバー時に色を変更 */
+}
 
 /* #header内のaタグに対する追加スタイル */
 #header a {
@@ -140,6 +154,7 @@ p {
     text-decoration: none;
 }
 */
+
 /* Footer Styling */
 #footer {
     background-color: #1f1815;
