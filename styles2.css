@@ -61,7 +61,7 @@ body {
 
 /* Header Styling */
 #header {
-    background-color: rgba(31, 24, 21, 0.8); /* 透明な背景オーバーレイ */
+    background-color: #1f1815; /* 透明な背景オーバーレイ */
     padding: 8em 4em;
     color: rgba(255, 255, 255, 0.9);
     background-size: cover;
@@ -90,7 +90,7 @@ body {
 #header a:hover {
     border-bottom: 2px solid #49bf9d; /* ホバー時に下線を表示 */
     border-bottom-color: transparent;
-    color: #49bf9d !important;
+    : #49bf9d !important;
     text-decoration: none;
 }
 
@@ -601,7 +601,7 @@ input[type="button"]:disabled,
         background-position: top left, center center;
         background-size: auto, cover;
         left: auto;
-        padding: 6em 4em;
+        padding: 2em 2em;
         position: relative;
         text-align: center;
         top: auto;
