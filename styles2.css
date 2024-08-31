@@ -576,11 +576,20 @@ input[type="button"]:disabled,
 @media screen and (min-width: 981px) {
     /* Header */
     #header {
-        padding: 6em 3em 3em 3em;
+        background-attachment: scroll;
+        background-position: top left, center center;
+        background-size: auto, cover;
+        left: auto;
+        padding: 2em 2em;
+        position: relative;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        display: block;
     }
 
     #header h1 {
-        font-size: 1.25em;
+        font-size: 1.75em;
     }
 
     #header h1 br {
