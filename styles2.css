@@ -6,7 +6,7 @@ body {
     color: #444;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.75;
+    line-height: 0.75;
     margin: 0;
     padding: 0;
     background-color: #fafafa; /* 背景色を全体に統一 */
@@ -36,7 +36,7 @@ body {
 
 #recent-work article {
     background-color: #fff;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* カードにシャドウを追加 */
     padding: 1em;
     flex: 1;
@@ -106,7 +106,7 @@ body {
 }
 
 #footer .icons a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1.5em;
     margin: 0 1em; /* アイコン間のスペースを調整 */
     transition: color 0.3s;
