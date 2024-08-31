@@ -594,6 +594,9 @@ input[type="button"]:disabled,
         padding: 6em 3em 3em 3em;
         width: calc(100% - 30%);
     }
+    p {
+        padding-left: 15%; /* 任意の値に調整してください */
+    }
 }
 
 /* Medium */
@@ -668,6 +671,9 @@ input[type="button"]:disabled,
         margin: 0;
         padding: 6em 4em;
         width: 100%;
+    }
+    p {
+        padding-left: 5%; /* 任意の値に調整してください */
     }
 }
 
