@@ -563,7 +563,7 @@ input[type="button"]:disabled,
     /* Header */
     #header {
         padding: 6em 3em 3em 3em;
-        width: 30%;
+        width: 100%;
     }
 
     #header h1 {
@@ -588,14 +588,14 @@ input[type="button"]:disabled,
     }
 
     /* Main */
+    /* Main */
     #main {
-        margin-left: 30%;
-        max-width: none;
-        padding: 6em 3em 3em 3em;
-        width: calc(100% - 30%);
+        margin: 0;
+        padding: 6em 4em;
+        width: 100%;
     }
     p {
-        padding-left: 2em; /* 任意の値に調整してください */
+        padding-left: 5%; /* 任意の値に調整してください */
     }
 }
 
@@ -673,7 +673,8 @@ input[type="button"]:disabled,
         width: 100%;
     }
     p {
-        padding-left: 1em; /* 任意の値に調整してください */
+        padding-left: 2%; /* 任意の値に調整してください */
+        width: 100%;
     }
 }
 
