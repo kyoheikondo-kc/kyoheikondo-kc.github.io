@@ -14,6 +14,25 @@ body {
     box-sizing: border-box; /* 全体でbox-sizingを適用 */
 }
 
+a {
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		border-bottom: dotted 1px;
+		color: #49bf9d;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+			color: #49bf9d !important;
+			text-decoration: none;
+        }
+
+
+
+
 /* 全体に適用されるスタイル */
 *, *::before, *::after {
     box-sizing: inherit; /* 全ての要素にbox-sizingを継承 */
@@ -95,6 +114,18 @@ p {
     text-align: center; /* テキストを中央寄せに */
 }
 
+
+/* #header内のaタグに対する追加スタイル */
+#header a {
+    border-bottom: 2px solid transparent;
+}
+
+#header a:hover {
+    border-bottom: 2px solid #49bf9d; /* ホバー時に下線を表示 */
+    border-bottom-color: transparent;
+}
+
+/*
 #header a {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: 2px solid transparent;
@@ -108,7 +139,7 @@ p {
     color: #49bf9d !important;
     text-decoration: none;
 }
-
+*/
 /* Footer Styling */
 #footer {
     background-color: #1f1815;
@@ -338,45 +369,6 @@ ul.actions.fit.stacked {
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-    ul.actions:not(.fixed) {
-        flex-direction: column;
-        margin-left: 0;
-        width: 100% !important;
-    }
-
-    ul.actions:not(.fixed) li {
-        flex-grow: 1;
-        flex-shrink: 1;
-        padding: 1em 0 0 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    ul.actions:not(.fixed) li > * {
-        width: 100%;
-    }
-
-    ul.actions:not(.fixed) li:first-child {
-        padding-top: 0;
-    }
-
-    ul.actions:not(.fixed) li input[type="submit"],
-    ul.actions:not(.fixed) li input[type="reset"],
-    ul.actions:not(.fixed) li input[type="button"],
-    ul.actions:not(.fixed) li button,
-    ul.actions:not(.fixed) li .button {
-        width: 100%;
-    }
-
-    ul.actions:not(.fixed) li input[type="submit"].icon:before,
-    ul.actions:not(.fixed) li input[type="reset"].icon:before,
-    ul.actions:not(.fixed) li input[type="button"].icon:before,
-    ul.actions:not(.fixed) li button.icon:before,
-    ul.actions:not(.fixed) li .button.icon:before {
-        margin-left: -0.5em;
-    }
-}
 
 /* Image Styling */
 .image {
@@ -768,7 +760,7 @@ input[type="button"]:disabled,
 
 /* XSmall */
 @media screen and (max-width: 480px) {
-    /* Header */
+     /* Header */
     #header {
         padding: 4.5em 1.5em;
     }
@@ -784,5 +776,43 @@ input[type="button"]:disabled,
         line-height: 2.25em;
         margin-left: 0;
         padding-left: 0;
+    }
+    
+    ul.actions:not(.fixed) {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100% !important;
+    }
+
+    ul.actions:not(.fixed) li {
+        flex-grow: 1;
+        flex-shrink: 1;
+        padding: 1em 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    ul.actions:not(.fixed) li > * {
+        width: 100%;
+    }
+
+    ul.actions:not(.fixed) li:first-child {
+        padding-top: 0;
+    }
+
+    ul.actions:not(.fixed) li input[type="submit"],
+    ul.actions:not(.fixed) li input[type="reset"],
+    ul.actions:not(.fixed) li input[type="button"],
+    ul.actions:not(.fixed) li button,
+    ul.actions:not(.fixed) li .button {
+        width: 100%;
+    }
+
+    ul.actions:not(.fixed) li input[type="submit"].icon:before,
+    ul.actions:not(.fixed) li input[type="reset"].icon:before,
+    ul.actions:not(.fixed) li input[type="button"].icon:before,
+    ul.actions:not(.fixed) li button.icon:before,
+    ul.actions:not(.fixed) li .button.icon:before {
+        margin-left: -0.5em;
     }
 }
