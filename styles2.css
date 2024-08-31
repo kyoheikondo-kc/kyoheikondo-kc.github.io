@@ -115,6 +115,7 @@ p {
     padding: 4em 2em;
     color: rgba(255, 255, 255, 0.8);
     text-align: center; /* テキストを中央寄せに */
+    width: 100%; /* 余計な余白を防ぐために100%幅に設定 */
 }
 
 #footer .inner {
