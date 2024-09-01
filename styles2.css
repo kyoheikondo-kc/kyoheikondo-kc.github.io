@@ -83,6 +83,10 @@ p {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
 }
+#contact .row {
+    margin: 0;
+    padding-left: 2%; /* デフォルトの余白 */
+}
 
 /* Main Section Styling */
 #about, #research, #recent-work, #publications, #contact {
@@ -109,6 +113,7 @@ p {
 #contact {
     gap: 2em; /* カード間の間隔を追加 */
     margin-top: 1em;
+	width: 100%;
 }
 
 #recent-work article {
@@ -779,6 +784,10 @@ input[type="button"]:disabled,
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 10%;
     }
+	#contact .row {
+        padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
+	padding-right: 10%;
+    }
 
 }
 
@@ -847,6 +856,10 @@ input[type="button"]:disabled,
         width: 100%;
     }
     p {
+        padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
+	padding-right: 5%;
+    }
+	#contact .row {
         padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 5%;
     }
