@@ -352,54 +352,7 @@ ul.labeled-icons li h3 {
     width: 1em;
 }
 
-/* Container */
 
-	.container {
-		margin: 0 auto;
-		max-width: calc(100% - 4em);
-		width: 100%;
-	}
-
-		.container.xsmall {
-			width: 25%;
-		}
-
-		.container.small {
-			width: 50%;
-		}
-
-		.container.medium {
-			width: 75%;
-		}
-
-		.container.large {
-			width: 125%;
-		}
-
-		.container.xlarge {
-			width: 150%;
-		}
-
-		.container.max {
-			width: 100%;
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.container {
-				width: 100% !important;
-				max-width: 100% !important;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.container {
-				max-width: calc(100% - 3em);
-			}
-
-		}
 
 /* Actions */
 
