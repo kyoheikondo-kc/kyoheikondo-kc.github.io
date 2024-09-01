@@ -101,6 +101,14 @@ p {
     gap: 2em; /* カード間の間隔を追加 */
 }
 
+#recent-work, #contact form {
+    padding: 4em 2em; /* 他のセクションと同じpaddingに統一 */
+    margin-bottom: 2em;
+    background-color: #f9f9f9;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 #recent-work article {
     background-color: #fff;
     border-radius: 0.2em;
