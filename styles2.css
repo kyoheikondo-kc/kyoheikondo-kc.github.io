@@ -766,7 +766,8 @@ input[type="button"]:disabled,
         padding: 6em 4em;
     }
     p {
-        padding-left: 8%; /* 画面幅が大きい場合に余白を増やす */
+        padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
+	padding-right: 10%;
     }
 
 }
@@ -837,6 +838,7 @@ input[type="button"]:disabled,
     }
     p {
         padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
+	padding-right: 5%;
     }
 
 }
