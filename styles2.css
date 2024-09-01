@@ -20,13 +20,13 @@ a {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #5384BF;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #5384BF !important;
 			text-decoration: none;
 		}
 
@@ -36,12 +36,12 @@ a {
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: #49bf9d;
+    color: #5384BF;
     text-decoration: none;
 }
 	#header a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #5384BF !important;
 			text-decoration: none;
 		}
 
@@ -58,7 +58,7 @@ a {
 
 #header .icons a:hover {
     border-bottom-color: transparent;
-    color: #49bf9d !important;
+    color: #5384BF !important;
     text-decoration: none;
 }
 
@@ -167,14 +167,14 @@ p {
 #header a {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: 2px solid transparent;
-    color: #49bf9d;
+    color: #5384BF;
     text-decoration: none;
 }
 
 #header a:hover {
-    border-bottom: 2px solid #49bf9d; /* ホバー時に下線を表示 */
+    border-bottom: 2px solid #5384BF; /* ホバー時に下線を表示 */
     border-bottom-color: transparent;
-    color: #49bf9d !important;
+    color: #5384BF !important;
     text-decoration: none;
 }
 */
@@ -205,7 +205,7 @@ p {
 }
 
 #footer .icons a:hover {
-    color: #49bf9d; /* ホバー時に色を変更 */
+    color: #5384BF; /* ホバー時に色を変更 */
 }
 
 #footer .copyright {
@@ -588,8 +588,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-    border-color: #49bf9d;
-    color: #49bf9d !important;
+    border-color: #5384BF;
+    color: #5384BF !important;
 }
 
 input[type="submit"]:active,
@@ -597,8 +597,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
     background-color: rgba(73, 191, 157, 0.3);
-    border-color: #49bf9d;
-    color: #49bf9d !important;
+    border-color: #5384BF;
+    color: #5384BF !important;
 }
 
 input[type="submit"].icon,
@@ -641,8 +641,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-    background-color: #49bf9d;
-    border-color: #49bf9d;
+    background-color: #5384BF;
+    border-color: #5384BF;
     color: #ffffff !important;
 }
 
@@ -2498,7 +2498,7 @@ input[type="button"]:disabled,
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #5384BF;
 		}
 
 	select {
@@ -2603,7 +2603,7 @@ input[type="button"]:disabled,
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #5384BF;
 		}
 
 	input[type="checkbox"] + label:before {
