@@ -886,7 +886,7 @@ input[type="button"]:disabled,
         text-align: center;
     }
 
-    header.major h2 {
+    #header.major h2 {
         font-size: 1.35em;
     }
 
@@ -900,9 +900,18 @@ input[type="button"]:disabled,
     }
 
     /* Header */
-    #header {
-        padding: 2.25em 1.5em;
-    }
+	#header {
+	background-attachment: scroll;
+	background-position: top left, center center;
+	background-size: auto, cover;
+	left: auto;
+	padding: 2.25em 1.5em;
+	position: relative;
+	text-align: center;
+	top: auto;
+	width: 100%;
+	display: block;
+	}
 
     #header h1 {
         font-size: 1.2em;
@@ -911,7 +920,7 @@ input[type="button"]:disabled,
     #header .icons a {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1em;
-    margin: 0 .5em; /* アイコン間のスペースを調整 */
+    margin: 0 1.2em; /* アイコン間のスペースを調整 */
     transition: color 0.3s;
 }
 
