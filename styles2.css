@@ -101,6 +101,13 @@ p {
     gap: 2em; /* カード間の間隔を追加 */
 }
 
+#contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em; /* カード間の間隔を追加 */
+	margin-top: 1em;
+}
+
 #recent-work article {
     background-color: #fff;
     border-radius: 0.2em;
