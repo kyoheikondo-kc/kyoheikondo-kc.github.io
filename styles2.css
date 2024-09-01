@@ -107,8 +107,6 @@ p {
 }
 
 #contact {
-    display: flex;
-    flex-wrap: wrap;
     gap: 2em; /* カード間の間隔を追加 */
     margin-top: 1em;
 }
