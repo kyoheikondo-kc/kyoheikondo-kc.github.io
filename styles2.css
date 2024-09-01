@@ -905,7 +905,7 @@ input[type="button"]:disabled,
     }
 
     #header h1 {
-        font-size: 1.35em;
+        font-size: 1em;
     }
     
     #header .icons a {
