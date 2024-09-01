@@ -114,7 +114,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 2em; /* カード間の間隔を追加 */
-	margin-top: 1em;
+    margin-top: 1em;
 }
 
 #recent-work article {
@@ -2498,7 +2498,7 @@ input[type="button"]:disabled,
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #625d5b;
+		background: #a5a2a1;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2602,7 +2602,7 @@ input[type="button"]:disabled,
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #625d5b;
+				background: #a5a2a1;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
