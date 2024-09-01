@@ -84,11 +84,6 @@ p {
     padding-left: 2%; /* デフォルトの余白 */
 }
 
-#contact {
-    margin: 0;
-    padding-left: 2%; /* デフォルトの余白 */
-}
-
 /* Main Section Styling */
 #about, #research, #recent-work, #publications, #contact {
     padding: 4em 2em;
