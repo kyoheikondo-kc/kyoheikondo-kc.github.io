@@ -238,6 +238,9 @@ p {
 .icon.brands:before {
     font-family: 'Font Awesome 5 Brands';
 }
+.icon > .label {
+			display: none;
+		}
 
 ul.icons li .icon:before {
     font-size: 1.75em; /* アイコンのサイズを微調整 */
