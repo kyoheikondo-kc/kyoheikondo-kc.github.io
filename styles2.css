@@ -83,6 +83,7 @@ p {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
 }
+
 #contact .row {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
@@ -785,10 +786,6 @@ input[type="button"]:disabled,
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 10%;
     }
-	#contact .row {
-        padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
-	padding-right: 10%;
-    }
 
 }
 
@@ -859,10 +856,6 @@ input[type="button"]:disabled,
     p {
         padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 5%;
-    }
-	#contact .row {
-        padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
-	padding-right: 10%;
     }
 
 }
@@ -1094,6 +1087,7 @@ input[type="button"]:disabled,
 
 		#contact .row > .col-6 {
 			width: 50%;
+			float: left;
 		}
 
 		#contact .row > .off-6 {
@@ -1337,6 +1331,7 @@ input[type="button"]:disabled,
 
 				#contact .row > .col-6-xlarge {
 					width: 50%;
+					float: left;
 				}
 
 				#contact .row > .off-6-xlarge {
@@ -1582,6 +1577,7 @@ input[type="button"]:disabled,
 
 				#contact .row > .col-6-large {
 					width: 50%;
+					float: left;
 				}
 
 				#contact .row > .off-6-large {
@@ -1827,6 +1823,7 @@ input[type="button"]:disabled,
 
 				#contact .row > .col-6-medium {
 					width: 50%;
+					float: left;
 				}
 
 				#contact .row > .off-6-medium {
@@ -2072,6 +2069,7 @@ input[type="button"]:disabled,
 
 				#contact .row > .col-6-small {
 					width: 50%;
+					float: left;
 				}
 
 				#contact .row > .off-6-small {
@@ -2317,6 +2315,7 @@ input[type="button"]:disabled,
 
 				#contact .row > .col-6-xsmall {
 					width: 50%;
+					float: left;
 				}
 
 				#contact .row > .off-6-xsmall {
@@ -2498,7 +2497,7 @@ input[type="button"]:disabled,
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #a5a2a1;
+		background: #bbb9b8;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2576,7 +2575,7 @@ input[type="button"]:disabled,
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #444;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2602,7 +2601,7 @@ input[type="button"]:disabled,
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #a5a2a1;
+				background: #bbb9b8;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
