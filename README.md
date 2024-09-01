@@ -1,2 +1,2 @@
-# Profile Kyohei Kondo
+# Profile | Kyohei Kondo
 
