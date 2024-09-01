@@ -489,6 +489,7 @@ ul.labeled-icons li h3 {
 .image img {
     border-radius: 0.5em;
     display: block;
+    border: none;
     width: 100%;
 }
 
