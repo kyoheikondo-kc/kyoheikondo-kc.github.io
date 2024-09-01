@@ -994,7 +994,6 @@ input[type="button"]:disabled,
 }
 
 /* Row */
-
 	#contact .row {
 		display: flex;
 		flex-wrap: wrap;
