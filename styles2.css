@@ -905,7 +905,7 @@ input[type="button"]:disabled,
     }
 
     #header h1 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     
     #header .icons a {
@@ -954,10 +954,6 @@ input[type="button"]:disabled,
      /* Header */
     #header {
         padding: 4.5em 1.5em;
-    }
-
-    #header h1 br {
-        display: none;
     }
     
     #recent-work .row {
