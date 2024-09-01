@@ -2486,7 +2486,7 @@ input[type="button"]:disabled,
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #625d5b;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2590,7 +2590,7 @@ input[type="button"]:disabled,
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f7f7f7;
+				background: #625d5b;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
