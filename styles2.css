@@ -907,6 +907,13 @@ input[type="button"]:disabled,
     #header h1 {
         font-size: 1.35em;
     }
+    
+    #header .icons a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+    margin: 0 .5em; /* アイコン間のスペースを調整 */
+    transition: color 0.3s;
+}
 
     /* Footer */
     #footer {
