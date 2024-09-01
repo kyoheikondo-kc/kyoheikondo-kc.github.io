@@ -84,7 +84,7 @@ p {
     padding-left: 2%; /* デフォルトの余白 */
 }
 
-#contact .row {
+#contact {
     margin: 0;
     padding-left: 2%; /* デフォルトの余白 */
 }
@@ -111,7 +111,7 @@ p {
     gap: 2em; /* カード間の間隔を追加 */
 }
 
-#contact .row {
+#contact {
     display: flex;
     flex-wrap: wrap;
     gap: 2em; /* カード間の間隔を追加 */
