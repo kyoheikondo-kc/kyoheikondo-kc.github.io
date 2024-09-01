@@ -784,7 +784,7 @@ input[type="button"]:disabled,
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 10%;
     }
-	#contact .row {
+    .row {
         padding-left: 12%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 10%;
     }
@@ -859,7 +859,7 @@ input[type="button"]:disabled,
         padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 5%;
     }
-	#contact .row {
+    .row {
         padding-left: 5%; /* 画面幅が大きい場合に余白を増やす */
 	padding-right: 5%;
     }
