@@ -2482,7 +2482,8 @@ input[type="button"]:disabled,
 
 	label {
 		color: #787878;
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
 		font-size: 0.9em;
 		font-weight: 400;
 		margin: 0 0 1em 0;
