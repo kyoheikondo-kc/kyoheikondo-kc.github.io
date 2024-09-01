@@ -422,7 +422,7 @@ ul.actions.fit.stacked {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); /* 黒色の透明なオーバーレイ */
+    background-color: rgba(0, 0, 0, 0.4); /* 黒色の透明なオーバーレイ */
     opacity: 0.1; /* 初期状態の透明度 */
     transition: opacity 0.2s ease-in-out;
     border-radius: 0.35em;
@@ -432,7 +432,7 @@ ul.actions.fit.stacked {
     transition: opacity 0.2s ease-in-out;
     border-radius: 0.35em;
     border: solid 3px rgba(255, 255, 255, 0.5);
-    color: #000;
+    color: #fff;
     content: 'View';
     display: inline-block;
     font-size: 0.8em;
@@ -783,6 +783,12 @@ input[type="button"]:disabled,
         padding: 2.25em 0 0 0;
     }
 
+
+    #recent-work .row {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
     /* Poptrox */
     .poptrox-popup {
         border-radius: 0;
@@ -792,6 +798,7 @@ input[type="button"]:disabled,
     .poptrox-popup .nav-previous:before {
         margin-top: -1em;
     }
+
 }
 
 /* XSmall */
@@ -803,6 +810,11 @@ input[type="button"]:disabled,
 
     #header h1 br {
         display: none;
+    }
+    
+    #recent-work .row {
+    display: flex;
+    flex-wrap: wrap;
     }
 
     /* Footer */
