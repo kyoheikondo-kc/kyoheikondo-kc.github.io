@@ -39,6 +39,11 @@ a {
     color: #49bf9d;
     text-decoration: none;
 }
+	#header a:hover {
+			border-bottom-color: transparent;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 #header .icons {
     margin-bottom: 1em;
