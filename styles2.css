@@ -547,6 +547,7 @@ ul.labeled-icons li h3 {
 
 .image.avatar:before {
 	display: none;
+	border-bottom: none;
 }
 
 /* Utility Classes */
