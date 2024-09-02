@@ -30,21 +30,6 @@ a {
 			text-decoration: none;
 		}
 
-#header a {
-    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    border-bottom: dotted 1px;
-    color: #5384BF;
-    text-decoration: none;
-}
-	#header a:hover {
-			border-bottom-color: transparent;
-			color: #5384BF !important;
-			text-decoration: none;
-		}
-
 #header .icons {
     margin-bottom: 1em;
 }
