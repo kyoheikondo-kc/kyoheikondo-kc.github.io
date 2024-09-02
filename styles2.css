@@ -493,6 +493,11 @@ ul.labeled-icons li h3 {
     width: 100%;
 }
 
+img[src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OWxW2XAAAAAJ&citpid=1&authuser=3"] {
+  border: none;
+	border-bottom-color: transparent;
+}
+
 .image.thumb {
     text-align: center;
     position: relative;
