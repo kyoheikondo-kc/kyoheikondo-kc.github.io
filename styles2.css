@@ -494,7 +494,7 @@ ul.labeled-icons li h3 {
 }
 
 img[src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OWxW2XAAAAAJ&citpid=1&authuser=3"] {
-  border: none;
+  border-bottom: none;
 	border-bottom-color: transparent;
 }
 
