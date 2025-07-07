@@ -3,27 +3,51 @@
 
 /* laptop */
 @media screen and (min-width: 981px) {
+    #recent-work .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em; /* カード間の間隔を追加 */
+        justify-content: space-between; /* アイテムを均等に配置 */
+    }
+
     #recent-work article {
-        margin-left: 2em;  /* 左側マージン */
-        margin-right: 2em; /* 右側マージン */
+        flex: 1 1 calc(33.33% - 2em); /* 1行に3つのアイテム、間隔を調整 */
+        margin-bottom: 2em;
+        padding: 2em; /* 各ブロックを大きく */
     }
 }
 
 /* tablet */
 @media screen and (max-width: 980px) {
+    #recent-work .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: space-between;
+    }
+
     #recent-work article {
-        margin-left: 1em;  /* 左側マージン */
-        margin-right: 1em; /* 右側マージン */
+        flex: 1 1 calc(50% - 2em); /* 1行に2つのアイテム */
+        margin-bottom: 2em;
+        padding: 2em; /* 各ブロックを大きく */
     }
 }
 
-/* mobile*/
+/* mobile */
 @media screen and (max-width: 480px) {
+    #recent-work .row {
+        display: flex;
+        flex-direction: column; /* 1行に1つのアイテム */
+        gap: 2em;
+    }
+
     #recent-work article {
-        margin-left: 0.5em;  /* 左側マージン */
-        margin-right: 0.5em; /* 右側マージン */
+        flex: 1 1 100%; /* 1行に1つ */
+        margin-bottom: 2em;
+        padding: 2em; /* 各ブロックを大きく */
     }
 }
+
 
 /* Basic Styles */
 body {
