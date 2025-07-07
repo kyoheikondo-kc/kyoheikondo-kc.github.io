@@ -96,16 +96,27 @@ p {
 
 #recent-work article {
     background-color: #fff;
-    border-radius: 0.2em;
+    border-radius: 0.5em;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 2em;
     text-align: center;
     margin-bottom: 2em;
     flex: 1 1 calc(33.33% - 2em);
     max-width: calc(33.33% - 2em);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#recent-work article:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
 
 #recent-work .image.fit.thumb {
+    position: relative;
+    overflow: hidden;
     margin-bottom: 1em;
 }
 
@@ -114,6 +125,31 @@ p {
     height: auto;
     max-height: 180px;
     object-fit: contain;
+    opacity: 0.85;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#recent-work article:hover .image.fit.thumb img {
+    opacity: 1;
+}
+
+#recent-work .image.fit.thumb::after {
+    content: "View";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5em 1.2em;
+    border-radius: 1em;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#recent-work article:hover .image.fit.thumb::after {
+    opacity: 1;
 }
 
 #recent-work h3 {
@@ -209,4 +245,5 @@ p {
         padding-right: 0.5em;
     }
 }
+
 
