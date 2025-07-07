@@ -222,6 +222,129 @@ p {
     padding-left: 0;
 }
 
+/* Icons Styling */
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    line-height: 1;
+}
+
+.icon.brands:before {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+ul.icons li .icon:before {
+    font-size: 1.75em; /* アイコンのサイズを微調整 */
+}
+
+ul.labeled-icons li h3 {
+    color: #b2b2b2;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1em;
+}
+
+/* List */
+
+ol {
+    list-style: decimal;
+    margin: 0 0 2em 0;
+    padding-left: 1.25em;
+}
+
+ol li {
+    padding-left: 0.25em;
+}
+
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+
+ul li {
+    padding-left: 0.5em;
+}
+
+ul.alt {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.alt li {
+    border-top: solid 2px #efefef;
+    padding: 0.5em 0;
+}
+
+ul.alt li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+dl {
+    margin: 0 0 2em 0;
+}
+
+/* Icons */
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: .8em 1em 0 0;
+}
+
+ul.icons li:last-child {
+    padding-right: 0;
+}
+
+ul.icons li .icon:before {
+    font-size: 1.5em;
+}
+
+/* Labeled Icons */
+
+ul.labeled-icons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.labeled-icons li {
+    line-height: 1.75em;
+    margin: 1.5em 0 0 0;
+    padding-left: 2.25em;
+    position: relative;
+}
+
+ul.labeled-icons li:first-child {
+    margin-top: 0;
+}
+
+ul.labeled-icons li a {
+    color: inherit;
+}
+
+ul.labeled-icons li h3 {
+    color: #b2b2b2;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1em;
+}
+
 /* ========== Responsive ========== */
 @media screen and (max-width: 980px) {
     #recent-work article {
