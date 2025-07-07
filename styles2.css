@@ -258,6 +258,13 @@ p {
         justify-content: center;
         gap: 2em;
     }
+ 
+    #header .icons a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    margin: 0 1em;
+    transition: color 0.3s;
+    }
 
     #header h1 {
         font-size: 1 em;
