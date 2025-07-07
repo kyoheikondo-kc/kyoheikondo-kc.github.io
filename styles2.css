@@ -250,7 +250,7 @@ p {
 /* ========== Laptop Specific ========== */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     #header {
-        padding: 4em 2em;
+        padding: 1.5em 2em;
     }
 
     #header .inner {
@@ -260,6 +260,7 @@ p {
     }
 
     #header h1 {
+        font-size: 1 em;
         margin-top: 0;
         text-align: left;
     }
