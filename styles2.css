@@ -222,6 +222,49 @@ p {
     padding-left: 0;
 }
 
+/* ========== Responsive ========== */
+@media screen and (max-width: 980px) {
+    #recent-work article {
+        flex: 1 1 calc(50% - 1em);
+        max-width: calc(50% - 1em);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #recent-work article {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    #recent-work .image.fit.thumb img {
+        max-height: 160px;
+    }
+
+    #contact {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+/* ========== Laptop Specific ========== */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    #header {
+        padding: 4em 2em;
+    }
+
+    #header .inner {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    #header h1 {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+
 /* Icons Styling */
 .icon {
     text-decoration: none;
