@@ -50,6 +50,12 @@ p {
     flex-direction: column;
     align-items: center;
 }
+h1 {
+    color: #fff;
+    font-size: 1.2 em;
+    margin-top: 1.5em;
+    text-align: center;
+}
 
 #header h1 {
     color: #fff;
@@ -270,6 +276,13 @@ p {
         font-size: 1 em;
         margin-top: 0;
         text-align: left;
+    }
+    
+    h1 {
+    color: #fff;
+    font-size: 1.2 em;
+    margin-top: 1.5em;
+    text-align: center;
     }
 }
 
