@@ -75,18 +75,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadPublications() {
         if (!publicationsContainer) return;
 
-        // Simulating fetch or using data directly if imported. 
-        // For this setup we will fetch from JSON file.
-        fetch('assets/data/publications.json')
-            .then(response => response.json())
-            .then(data => {
-                renderFilterButtons(data);
-                renderPublications(data);
-            })
-            .catch(error => {
-                console.error('Error loading publications:', error);
-                publicationsContainer.innerHTML = '<p>Error loading publications. Please try again later.</p>';
-            });
+        // Use global variable from publications.js
+        if (typeof publicationsData !== 'undefined') {
+            renderFilterButtons(publicationsData);
+            renderPublications(publicationsData);
+        } else {
+            console.error('Error loading publications: publicationsData is undefined');
+            publicationsContainer.innerHTML = '<p>Error loading publications. Please try again later.</p>';
+        }
     }
 
     function renderPublications(publications) {
