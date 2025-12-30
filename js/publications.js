@@ -7,8 +7,8 @@ const publicationsData = [
         "image": "assets/images/publications/chronotype_sleep.jpg",
         "tags": [
             "Sleep",
-            "Chronobiology",
-            "Physiology"
+            "Chronotype",
+            "Japan"
         ]
     },
     {
@@ -45,7 +45,8 @@ const publicationsData = [
         "image": "assets/images/publications/sitting_behavior.jpg",
         "tags": [
             "Behavior",
-            "Thermal Comfort"
+            "Thermal Comfort",
+            "Tropical Climate"
         ]
     },
     {
@@ -56,8 +57,8 @@ const publicationsData = [
         "image": "assets/images/publications/pandemic_sleep.jpg",
         "tags": [
             "Sleep",
-            "Chronobiology",
-            "Pandemic"
+            "Pandemic",
+            "Japan"
         ]
     },
     {
@@ -68,9 +69,9 @@ const publicationsData = [
         "image": "assets/images/publications/window_opening.jpg",
         "tags": [
             "Sleep",
-            "IAQ",
-            "Ventilation",
+            "Window opening",
             "Japan"
         ]
     }
 ];
+
