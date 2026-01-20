@@ -1,5 +1,17 @@
 const publicationsData = [
     {
+        "doi": "10.3390/su18020865",
+        "title": "Naturally ventilated residence in the tropics and indoor behavior",
+        "journal": "Sustainability",
+        "year": 2026,
+        "image": "assets/images/publications/field_measurement_floor.jpg",
+        "tags": [
+            "Thermal Comfort",
+            "Adaptation",
+            "Tropical Climate"
+        ]
+    },
+    {
         "doi": "10.1080/07420528.2025.2584196",
         "title": "The different strategies for good sleep in each chronotype",
         "journal": "Chronobiology International",
@@ -74,4 +86,5 @@ const publicationsData = [
         ]
     }
 ];
+
 
